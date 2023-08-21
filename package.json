@@ -4,7 +4,7 @@
 	"description": "kedatech functional testing",
 	"main": "index.js",
 	"scripts": {
-		"test": "jest"
+		"test": "tsc && jest"
 	},
 	"jest": {
 		"transform": {
